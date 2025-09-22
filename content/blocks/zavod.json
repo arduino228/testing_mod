@@ -10,6 +10,7 @@
 	"hasPower": true,
 	"hasItems": true,
 	"hasLiquids": false,
+	"isOutputLiquids": false,
 	"craftTime": 10,
 	"consumes": {
 		"power": 20,
@@ -23,6 +24,7 @@
 	"itemCapacity": 20,
 	"outputItem": {"item": "surge-alloy", "amount": 1}
 }
+
 
 
 
