@@ -1,6 +1,6 @@
 {
-  "name": "myfirstmod",
-  "displayName": "mymod.",
+  "name": "testing_mod",
+  "displayName": "[red]my[green]mod",
   "author": "BobaFett",
   "description": "idk",
   "version" : "1.0",
@@ -9,4 +9,5 @@
   "hidden": false,
   "subtitle": "yoooooo",
   "main": "main"
+
 }
