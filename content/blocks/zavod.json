@@ -1,0 +1,29 @@
+{
+	"type": "GenericCrafter",
+	"name": "Завод",
+	"discription": "...",
+	"health": 1000,
+	"size": 3,
+	"requirements": [
+		{"item": "scrap", "amount": 1000 }
+	],
+	"hasPower": true,
+	"hasItems": true,
+	"hasLiquids": false,
+	"craftTime": 3,
+	"consumes": {
+		"power": 350,
+		"items": [
+		{"item": "copper", "amount": 10}
+		]
+	},
+	"updateEffect": "smeltsmoke",
+	"category": "crafting",
+	"idleSoundVolume": 1,
+	"itemCapacity": 20,
+	"outputItem": {"item": "surge-alloy", "amount": 1}
+}
+
+
+
+
