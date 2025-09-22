@@ -3,7 +3,7 @@
 	"name": "copper-door",
 	"discription": "тук тук",
 	"health": 500,
-	"size": 2,
+	"size": 1,
 	"requirements": [
 		{"item": "copper", "amount": 34 }
 	],
@@ -11,6 +11,7 @@
 	"research": "copper-wall",
 	"consumesTap": true
 }
+
 
 
 
