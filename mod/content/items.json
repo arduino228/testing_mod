@@ -1,10 +1,11 @@
 {
-"type": "resource",
-"name": "ресурс",
+"type": "material",
+"name": "res",
 "discription": "хз, ресурс какойто",
 "cost": "2",
 "hardness": "4",
 "color": "#663300"
 }
+
 
 
