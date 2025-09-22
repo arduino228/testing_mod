@@ -1,0 +1,14 @@
+{
+  "name": "myfirstmod",
+  "displayName": "This isn't a mod.",
+  "author": "BobaFett",
+  "description": "Bbfashbjhcbabfhsbafbhajbf",
+  "version" : "1.0",
+  "minGameVersion": "144",
+  "dependencies": [ ],
+  "hidden": false,
+}
+/*
+  "subtitle": "",
+  "main": "",
+*/
