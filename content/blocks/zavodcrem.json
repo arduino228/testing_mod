@@ -1,6 +1,6 @@
 {
 	"type": "GenericSmelter",
-	"name": "Завод",
+	"name": "Смелтер",
 	"discription": "...",
 	"health": 1000,
 	"size": 3,
