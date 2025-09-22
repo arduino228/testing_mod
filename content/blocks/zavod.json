@@ -10,9 +10,9 @@
 	"hasPower": true,
 	"hasItems": true,
 	"hasLiquids": false,
-	"craftTime": 3,
+	"craftTime": 10,
 	"consumes": {
-		"power": 350,
+		"power": 20,
 		"items": [
 		{"item": "copper", "amount": 10}
 		]
@@ -23,6 +23,7 @@
 	"itemCapacity": 20,
 	"outputItem": {"item": "surge-alloy", "amount": 1}
 }
+
 
 
 
