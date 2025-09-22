@@ -1,7 +1,7 @@
 {
 	"type": "Door",
 	"name": "copper-door",
-	"discription": "тук тук",
+	"discription": "...",
 	"health": 500,
 	"size": 1,
 	"requirements": [
@@ -11,6 +11,7 @@
 	"research": "copper-wall",
 	"consumesTap": true
 }
+
 
 
 
