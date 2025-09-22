@@ -1,0 +1,17 @@
+{
+	"type": "Door",
+	"name": "Медная дверь",
+	"discription": "тук тук",
+	"health": 500,
+	"size": 2,
+	"requirements": [
+		{"item": "copper", "amount": 34 }
+	],
+	"category": "defense",
+	"research": "copper-wall",
+	"consumesTap": true
+}
+
+
+
+
