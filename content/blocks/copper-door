@@ -1,6 +1,6 @@
 {
 	"type": "Door",
-	"name": "Медная дверь",
+	"name": "copper-door",
 	"discription": "тук тук",
 	"health": 500,
 	"size": 2,
@@ -11,6 +11,7 @@
 	"research": "copper-wall",
 	"consumesTap": true
 }
+
 
 
 
