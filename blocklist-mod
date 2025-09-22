@@ -1,0 +1,7 @@
+{
+"mod-blaster": {
+        "synthetic": true,
+        "solid": true,
+        "size": 3,
+        "color": 255
+},
