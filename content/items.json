@@ -1,11 +1,12 @@
 {
 "type": "material",
 "name": "res",
-"discription": "хз, ресурс какойто",
+"discription": "",
 "cost": "2",
 "hardness": "4",
 "color": "#663300"
 }
+
 
 
 
