@@ -1,7 +1,8 @@
 {
-"type": "shield"
+"type": "BaseShield"
 "name": "Мини щит",
 "category": "effect",
+"size": 1,
 "hasPower": true,
 "consumes": {
 	"power": 2
