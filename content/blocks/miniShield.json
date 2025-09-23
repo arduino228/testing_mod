@@ -1,4 +1,9 @@
 {
 "type": "shield"
-
+"name": "Мини щит",
+"radius": 10,
+"regen": 0.2,
+"max": 250,
+"cooldown": 500,
+"angle": 180
 }
