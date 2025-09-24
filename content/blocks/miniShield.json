@@ -1,3 +1,18 @@
 {
+        "type": "wall",
+        "name": "Мини щит",
+        "discription": "...",
+        "health": 10000,
+        "size": 1,
+        "requirements": [
+                {"item": "copper", "amount": 1 },
+                {"item": "lead", "amount": 1 }
+        ],
+        
+        "category": "effect",
+        "breakCooldown": 30,
+        "regenSpeed": 0.2,
+        "shieldHealth": 250,
 
 }
+
