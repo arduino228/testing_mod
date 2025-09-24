@@ -1,5 +1,5 @@
 {
-        "type": "ForceShield",
+        "type": "BaseShield",
         "name": "Мини щит",
         "discription": "...",
         "health": 10000,
