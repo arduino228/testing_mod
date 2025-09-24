@@ -1,5 +1,5 @@
 {
-        "type": "BaseShield",
+        "type": "ForceProjector",
         "name": "Мини щит",
         "discription": "...",
         "health": 10000,
@@ -11,6 +11,7 @@
         
         "sides": 4,
         "radius": 10,
+        "shieldRotation": 45,
         "category": "effect",
         "breakCooldown": 30,
         "regenSpeed": 0.2,
