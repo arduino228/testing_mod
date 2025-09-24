@@ -10,7 +10,7 @@
         ],
         
         "sides": 4,
-        "radius": 10,
+        "radius": 50,
         "shieldRotation": 45,
         "category": "effect",
         "breakCooldown": 30,
