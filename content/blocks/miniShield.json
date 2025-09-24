@@ -15,7 +15,7 @@
              },
         "sides": 6,
         "radius": 50,
-        "shieldRotation": 45,
+        "shieldRotation": 0,
         "category": "effect",
         "breakCooldown": 60,
         "regenSpeed": 0.1,
