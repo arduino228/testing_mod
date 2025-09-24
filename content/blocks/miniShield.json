@@ -7,7 +7,7 @@
         "requirements": [
 {"item": "copper", "amount": 12},
 {"item": "lead", "amount": 12},
-{"item": "silicone", "amount": 12}
+{"item": "siligone", "amount": 12}
         
         ]
         "consumes": {
