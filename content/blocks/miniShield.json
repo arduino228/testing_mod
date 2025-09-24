@@ -1,5 +1,5 @@
 {
-"type": "wall",
+"type": "ShieldWall",
 "name": "Мини щит",
 "category": "effect",
 "size": 1,
