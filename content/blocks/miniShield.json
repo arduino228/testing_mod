@@ -5,10 +5,17 @@
         "health": 10000,
         "size": 1,
         "requirements": [
-                {"item": "copper", "amount": 1 },
-                {"item": "lead", "amount": 1 }
-        ],
-        
+                {
+"item": "copper", "amount": 12,
+"item": "lead", "amount": 12,
+"item": "silicone", "amount": 12
+        }
+        ]
+        "consumes": {
+            [
+             "power": 2.5
+            ]
+                 },
         "sides": 4,
         "radius": 50,
         "shieldRotation": 45,
@@ -18,4 +25,3 @@
         "shieldHealth": 250,
 
 }
-
