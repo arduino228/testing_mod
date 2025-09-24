@@ -1,11 +1,3 @@
 {
-"type": "wall",
-"name": "Мини щит",
-"category": "effect",
-"size": 1,
-"breakCooldown": 30,
-"regenSpeed": 0.2,
-"shieldHealth": 250,
-"radius": 10,
-"sides": 4
+
 }
