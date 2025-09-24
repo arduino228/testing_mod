@@ -5,11 +5,10 @@
         "health": 10000,
         "size": 1,
         "requirements": [
-                {
-"item": "copper", "amount": 12,
-"item": "lead", "amount": 12,
-"item": "silicone", "amount": 12
-        }
+{"item": "copper", "amount": 12},
+{"item": "lead", "amount": 12},
+{"item": "silicone", "amount": 12}
+        
         ]
         "consumes": {
             [
