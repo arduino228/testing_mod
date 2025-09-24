@@ -13,7 +13,7 @@
         "consumes": {
              "power": 1.5
              },
-        "sides": 8,
+        "sides": 6,
         "radius": 50,
         "shieldRotation": 0,
         "category": "effect",
