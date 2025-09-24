@@ -3,13 +3,9 @@
 "name": "Мини щит",
 "category": "effect",
 "size": 1,
-"max": 250,
-"cooldown": 30,
-"regen": 0.2,
-"hasPower": true,
-"consumes": {
-	"power": 2
-	},
+"breakCooldown": 30,
+"regenSpeed": 0.2,
+"shieldHealth": 250,
 "radius": 10,
 "sides": 4
 }
