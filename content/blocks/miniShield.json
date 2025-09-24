@@ -9,6 +9,8 @@
                 {"item": "lead", "amount": 1 }
         ],
         
+        "sides": 4,
+        "radius": 10,
         "category": "effect",
         "breakCooldown": 30,
         "regenSpeed": 0.2,
