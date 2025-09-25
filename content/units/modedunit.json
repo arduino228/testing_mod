@@ -1,6 +1,6 @@
 {
 "name": "mode unit",
-"flying": true,
-"speed": 1
-
+"flying": false,
+"speed": 3,
+"size": 2.5
 }
