@@ -2,8 +2,8 @@
 "name": "mode unit",
 "flying": false,
 "health": 500,
-"armor": 3,
-"speed": 1,
-"rotateSpeed": 0.5,
-"hitSize": 24
+"armor": 10,
+"speed": 0.5,
+"rotateSpeed": 1,
+"hitSize": 12
 }
