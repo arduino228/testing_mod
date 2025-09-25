@@ -1,6 +1,7 @@
 {
 "type": "unit",
 "name": "unit1",
+"flying": true,
 "speed": 1
 
 }
