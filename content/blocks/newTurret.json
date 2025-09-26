@@ -5,6 +5,7 @@
   "health": 2500,
   "size": 3,
   "category": "turret",
+  "attacks": true,
   "requirements": [
 		{"item": "scrap", "amount": 10000 }
 	],
