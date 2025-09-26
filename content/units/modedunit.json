@@ -13,6 +13,6 @@
 "weapons": [{
   "weapon01": [{
     "name": "w",
-    "bullet": "fireball"}]
+    "bullet": "damageLightning"}]
 }]
 }
