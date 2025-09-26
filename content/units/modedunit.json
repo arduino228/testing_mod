@@ -11,7 +11,7 @@
 "rotateMoveFirst": true,
 "ForceFieldAbility":[],
 "weapons": [{
-  "weapon01": [{
+  "weapon": [{
     "name": "w",
     "bullet": "damageLightning"}]
 }]
