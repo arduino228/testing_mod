@@ -6,11 +6,11 @@
 "speed": 0.5,
 "rotateSpeed": 1,
 "hitSize": 12,
-"abilities": 
+"abilities": [
 {"ForceField":[
     "radius": 5,
-    "sides": 3]
-},
+    "sides": 3]}
+]
 "weapons": [
 {}
 ]
