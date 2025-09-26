@@ -1,6 +1,7 @@
 {
   "type": "turret",
   "name": "123",
+  "discription": "this is a turret",
   "health": 2500,
   "size": 3,
   "category": "turret",
