@@ -1,6 +1,6 @@
 {
 "type": "ability",
 "name": "shield",
-
+"ForceFieldAbility":[],
 
 }
