@@ -29,4 +29,9 @@
   "reload": 10,
   
   "ammoPerShot": 1,
+  
+   "weapon": [{
+   "name": "w",
+   "bullet": "damageLightning"}]
+}]
 }
