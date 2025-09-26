@@ -8,7 +8,7 @@
 "hitSize": 12,
 "ForceFieldAbility":[
 "size": 5,
-"sides" 3
+"sides": 3
 ],
 "EnergyFieldAbility":[],
 "weapons": [{}]
