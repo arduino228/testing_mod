@@ -3,13 +3,17 @@
   "name": "123",
   "health": 2500,
   "size": 3,
-  "category": "
-  "range"
-  "placeOverlapMargin"
-  "rotateSpeed"
-  "fogRadiusMultiplier"
-  "disableOverlapCheck"
-  "coolEffect"
-  "coolantMultiplier"
-  "coolant"
+  "category": "turret",
+  "consumers":
+  "range": 50,
+  "rotateSpeed": 5,
+  "disableOverlapCheck": true,
+  "coolEffect": "fuelburn",
+  "coolantMultiplier": 5,
+  "coolant": 
+
+  "reload": 10,
+  
+  "ammoPerShot": 1,
+  
 }
