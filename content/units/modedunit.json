@@ -7,7 +7,7 @@
 "rotateSpeed": 1,
 "hitSize": 12,
 "abilities": [
-{"ForceFieldAbility"}
+{"ForceFieldAbility": []}
 ],
 "weapons": [
 {}
