@@ -8,6 +8,7 @@
 "hitSize": 12,
 "range": 30,
 "maxRange": 35,
+"rotateMoveFirst": true,
 "ForceFieldAbility":[],
 "weapons": [{
   "weapon01": [{
