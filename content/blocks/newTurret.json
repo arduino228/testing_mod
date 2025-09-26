@@ -4,7 +4,16 @@
   "health": 2500,
   "size": 3,
   "category": "turret",
-  "consumers":
+  "requirements": [
+		{"item": "scrap", "amount": 10000 }
+	],
+  "hasItems": true,
+  "consumers": {
+		"power": 2.5,
+		"items": [
+		{"item": "surge-alloy", "amount": 1}
+		]
+	},
   "range": 50,
   "rotateSpeed": 5,
   "disableOverlapCheck": true,
@@ -15,5 +24,4 @@
   "reload": 10,
   
   "ammoPerShot": 1,
-  
 }
