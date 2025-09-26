@@ -8,7 +8,7 @@
 		{"item": "scrap", "amount": 10000 }
 	],
   "hasItems": true,
-  "consumers": {
+  "consumes": {
 		"power": 2.5,
 		"items": [
 		{"item": "surge-alloy", "amount": 1}
