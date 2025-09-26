@@ -19,7 +19,7 @@
   "disableOverlapCheck": true,
   "coolEffect": "fuelburn",
   "coolantMultiplier": 5,
-  "coolant": 
+  "coolant": [],
 
   "reload": 10,
   
