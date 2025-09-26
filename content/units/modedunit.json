@@ -6,6 +6,8 @@
 "speed": 0.5,
 "rotateSpeed": 3,
 "hitSize": 12,
+"range": 30,
+"maxRange": 35,
 "ForceFieldAbility":[],
 "weapons": [{
   "weapon01": [{
