@@ -8,6 +8,8 @@
 "hitSize": 12,
 "ForceFieldAbility":[],
 "weapons": [{
-  "weapon01": []
+  "weapon01": [{
+    "name": "w",
+    "bullet": "fireball"}]
 }]
 }
