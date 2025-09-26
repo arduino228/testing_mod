@@ -14,7 +14,7 @@
 		{"item": "surge-alloy", "amount": 1}
 		]
 	},
-  "range": 50,
+  "range": 500,
   "rotateSpeed": 5,
   "disableOverlapCheck": true,
   "coolEffect": "fuelburn",
