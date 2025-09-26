@@ -7,10 +7,10 @@
 "rotateSpeed": 1,
 "hitSize": 12,
 "abilities": [
-{"ForceField": [
+{"ForceField":
     "radius": 5,
-    "sides": 3]}
-],
+    "sides": 3
+},
 "weapons": [
 {}
 ]
