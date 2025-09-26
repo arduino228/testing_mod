@@ -6,7 +6,7 @@
 "speed": 0.5,
 "rotateSpeed": 1,
 "hitSize": 12,
-"shieldAbility":[],
+"ForceFieldAbility":[],
 "EnergyFieldAbility":[],
 "weapons": [{}]
 }
