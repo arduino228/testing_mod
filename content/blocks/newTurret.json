@@ -8,13 +8,6 @@
   "requirements": [
 		{"item": "scrap", "amount": 10000 }
 	],
-  "hasItems": true,
-  "consumes": {
-		"power": 2.5,
-		"items": [
-		{"item": "surge-alloy", "amount": 1}
-		]
-	},
   "range": 500,
   "rotateSpeed": 5,
   "disableOverlapCheck": true,
