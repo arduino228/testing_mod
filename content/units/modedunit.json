@@ -4,7 +4,7 @@
 "health": 500,
 "armor": 10,
 "speed": 0.5,
-"rotateSpeed": 1,
+"rotateSpeed": 3,
 "hitSize": 12,
 "ForceFieldAbility":[],
 "weapons": [{
