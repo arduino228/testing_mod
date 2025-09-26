@@ -1,1 +1,15 @@
-
+{
+  "type": "turret",
+  "name": "123",
+  "health": 2500,
+  "size": 3,
+  "category": "
+  "range"
+  "placeOverlapMargin"
+  "rotateSpeed"
+  "fogRadiusMultiplier"
+  "disableOverlapCheck"
+  "coolEffect"
+  "coolantMultiplier"
+  "coolant"
+}
