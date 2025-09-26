@@ -6,7 +6,10 @@
 "speed": 0.5,
 "rotateSpeed": 1,
 "hitSize": 12,
-"ForceFieldAbility":[],
+"ForceFieldAbility":[
+"size": 5,
+"sides" 3
+],
 "EnergyFieldAbility":[],
 "weapons": [{}]
 }
