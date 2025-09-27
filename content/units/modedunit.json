@@ -13,7 +13,7 @@ itemCapacity: 5
 
 weapons: [
     {
-        name: mechanical-tank-head-mount
+        name: weapon1
         rotate: true
         rotateSpeed: 0.8
         x: 0
@@ -43,7 +43,7 @@ weapons: [
         }
     },
     {
-        name: mechanical-tank-head-barrel
+        name: weapone2-barrel
         top: false
         rotate: false
         rotateSpeed: 3
@@ -72,7 +72,7 @@ weapons: [
         }
     },
     {
-        name: mechanical-tank-head-weapon
+        name: weapon3
         x: 0
         y: 0
         shootX: 16
@@ -133,7 +133,7 @@ abilities: [
     {
     type: RegenAbility
     amount: 0.05
-    }
+    },
     {
     type: ForceFieldAbility
     }
