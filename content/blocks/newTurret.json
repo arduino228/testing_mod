@@ -14,11 +14,7 @@
   "disableOverlapCheck": true,
   "coolEffect": "fuelburn",
   "coolantMultiplier": 5,
-  /*"coolant": {
-	  "liquids": [
-		  {"liquid": "water", "amount": 10}
-	  ]
-  },*/
+
 
   "reload": 10,
   
