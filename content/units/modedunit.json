@@ -1,18 +1,143 @@
-{
-"name": "mode unit",
-"flying": false,
-"health": 500,
-"armor": 10,
-"speed": 0.5,
-"rotateSpeed": 3,
-"hitSize": 12,
-"range": 30,
-"maxRange": 35,
-"rotateMoveFirst": true,
-"ForceFieldAbility":[],
-"weapons": [{
-  "weapon": [{
-    "name": "w",
-    "bullet": "damageLightning"}]
-}]
-}
+type: mech
+flying: false
+health: 300
+armor: 6
+hitSize: 12
+speed: 1
+
+mechFrontSway: 0.35
+
+crashDamageMultiplier: 1.5
+
+itemCapacity: 5
+
+weapons: [
+    {
+        name: mechanical-tank-head-mount
+        rotate: true
+        rotateSpeed: 0.8
+        x: 0
+        y: -6
+        reload: 150
+        mirror: false
+        shootSound: artillery
+        recoil: 1
+        shootStatus: slow
+        targetAir: false
+
+        bullet: {
+            type: ArtilleryBulletType
+            splashDamage: 30
+            splashDamageRadius: 20
+            speed: 3
+            lifetime: 60
+            knockback: 1
+            trailWidth: 2
+            trailLength: 3
+            shootEffect: shootSmokeSquare
+            smokeEffect: shootSmokeDisperse
+            hitEffect: hitBulletColor
+            despawnEffect: hitBulletColor
+
+            collidesAir: false
+        }
+    },
+    {
+        name: mechanical-tank-head-barrel
+        top: false
+        rotate: false
+        rotateSpeed: 3
+        x: 8
+        y: 0
+        reload: 25
+        mirror: true
+        shootSound: pew
+        targetAir: true
+        shootSound: bolt
+
+        bullet: {
+            type: BasicBulletType
+            damage: 5
+            speed: 6
+            lifetime: 35
+            knockback: 0.2
+            trailWidth: 2
+            trailLength: 3
+            shootEffect: shootSmokeSquare
+            smokeEffect: shootSmokeDisperse
+            hitEffect: hitBulletColor
+            despawnEffect: hitBulletColor
+
+            collidesAir: true
+        }
+    },
+    {
+        name: mechanical-tank-head-weapon
+        x: 0
+        y: 0
+        shootX: 16
+        shootY: -4
+        reload: 35
+        mirror: true
+        shootSound: pew
+        targetAir: true
+        shootSound: bolt
+
+        bullet: {
+            type: BasicBulletType
+            damage: 5
+            speed: 6
+            lifetime: 35
+            knockback: 0.2
+
+            trailLength: 13
+            trailWidth: 2
+
+            trailInterp: slope
+
+            shrinkX: 0.6
+            shrinkY: 0.2
+
+            //basic effect
+            shootEffect: sparkShoot
+            smokeEffect: shootBigSmoke
+            hitEffect: hitBulletColor
+            despawnEffect: hitBulletColor
+
+            collidesAir: true
+        }
+        parts: [
+            {
+            type: RegionPart
+            progress: warmup
+            suffix: -barrel
+            mirror: false
+            moveX: 16
+            moveY:-4
+            moveRot: 0
+            layerOffset: -0.01
+            heatLayerOffset: 0.05
+            moves: [
+              {
+                type: partMove
+                progress: recoil
+                y: -1
+              }
+            ]
+          }
+        ]
+    }
+]
+
+abilities: [
+    {
+    type: RegenAbility
+    amount: 0.05
+    }
+    {
+    type: ForceFieldAbility
+    }
+]
+
+research: []
+researchCostMultiplier: 3
