@@ -27,7 +27,7 @@
         "speed": 5.0
         "lifetime": 100
         "damage": 660
-        "type: "ArtilleryBulletType"
+        "type": "ArtilleryBulletType"
         "reloadMultiplier": 1.0
         "width": 10
         "height": 10
