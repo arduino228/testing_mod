@@ -24,7 +24,7 @@
   
   "ammoPerShot": 1,
   
-   "weapon": [{
-   "name": "w",
-   "bullet": "damageLightning"}]
+  "damageLightning"
+
+
 }
