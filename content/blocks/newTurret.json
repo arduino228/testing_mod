@@ -20,14 +20,13 @@
   
   "ammoPerShot": 1,
   
-  "damageLightning"
 
   "ammoTypes": {
       "titanium": {
         "speed": 5.0
         "lifetime": 100
         "damage": 660
-        "type": "ArtilleryBulletType"
+        "type": "damageLightning"
         "reloadMultiplier": 1.0
         "width": 10
         "height": 10
