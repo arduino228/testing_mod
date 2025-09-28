@@ -20,8 +20,8 @@ weapons: [
         rotateSpeed: 0.8
         x: 0
         y: -6
-        reload: 150
-        mirror: false
+        reload: 15
+        mirror: true
         shootSound: artillery
         recoil: 1
         shootStatus: slow
@@ -34,8 +34,8 @@ weapons: [
             speed: 3
             lifetime: 60
             knockback: 1
-            trailWidth: 2
-            trailLength: 3
+            trailWidth: 0
+            trailLength: 0
             shootEffect: shootSmokeSquare
             smokeEffect: shootSmokeDisperse
             hitEffect: hitBulletColor
@@ -43,93 +43,7 @@ weapons: [
 
             collidesAir: false
         }
-    },
-    {
-        name: weapon2
-        top: false
-        rotate: false
-        rotateSpeed: 3
-        x: 8
-        y: 0
-        reload: 25
-        mirror: true
-        shootSound: pew
-        targetAir: true
-        shootSound: bolt
-
-        bullet: {
-            type: BasicBulletType
-            damage: 5
-            speed: 6
-            lifetime: 35
-            knockback: 0.2
-            trailWidth: 2
-            trailLength: 3
-            shootEffect: shootSmokeSquare
-            smokeEffect: shootSmokeDisperse
-            hitEffect: hitBulletColor
-            despawnEffect: hitBulletColor
-
-            collidesAir: true
-        }
-    },
-    {
-        name: weapon2-barrel
-        x: 0
-        y: 0
-        shootX: 16
-        shootY: -4
-        reload: 35
-        mirror: true
-        shootSound: pew
-        targetAir: true
-        shootSound: bolt
-
-        bullet: {
-            type: BasicBulletType
-            damage: 5
-            speed: 6
-            lifetime: 35
-            knockback: 0.2
-
-            trailLength: 13
-            trailWidth: 2
-
-            trailInterp: slope
-
-            shrinkX: 0.6
-            shrinkY: 0.2
-
-            //basic effect
-            shootEffect: sparkShoot
-            smokeEffect: shootBigSmoke
-            hitEffect: hitBulletColor
-            despawnEffect: hitBulletColor
-
-            collidesAir: true
-        }
-        parts: [
-            {
-            type: RegionPart
-            progress: warmup
-            suffix: -barrel
-            mirror: false
-            moveX: 16
-            moveY:-4
-            moveRot: 0
-            layerOffset: -0.01
-            heatLayerOffset: 0.05
-            moves: [
-              {
-                type: partMove
-                progress: recoil
-                y: -1
-              }
-            ]
-          }
-        ]
     }
-]
 
 abilities: [
     {
@@ -138,6 +52,8 @@ abilities: [
     },
     {
     type: ForceFieldAbility
+    sides: 3
+    
     }
 ]
 
