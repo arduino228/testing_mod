@@ -45,7 +45,7 @@ ammoTypes: {
     speed: 8
     width: 6
     height: 8
-    lifetime: 35
+    lifetime: 37
     trailWidth: 1
     trailLength: 5
 
