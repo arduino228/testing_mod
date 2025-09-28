@@ -1,9 +1,9 @@
 type: itemTurret
 category: turret
-health: 2400
-armor: 6
-size: 3
-range: 300
+health: 1000
+armor: 3
+size: 1
+range: 100
 minRange: 60
 ammoEjectBack: 2
 ammoPerShot: 3
@@ -28,8 +28,8 @@ coolant: {
 }
 
 shoot: {
-  shots: 6
-  shotDelay: 5
+  shots: 1
+  shotDelay: 2
 }
 ammoTypes: {
   scrap: {
