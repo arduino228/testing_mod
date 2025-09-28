@@ -42,6 +42,7 @@ ammoTypes: {
     status: {
       electrified:{}
     }
+    statusDuration: 500
 
     speed: 8
     width: 6
