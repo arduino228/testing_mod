@@ -35,7 +35,7 @@ ammoTypes: {
   scrap: {
     type: FlakBulletType
     damage: 50
-    explodeRange: 10
+    explodeRange: 30
     speed: 6
     width: 6
     height: 8
