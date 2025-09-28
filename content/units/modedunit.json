@@ -74,7 +74,7 @@ weapons: [
         }
     },
     {
-        name: weapon3
+        name: weapon2
         x: 0
         y: 0
         shootX: 16
