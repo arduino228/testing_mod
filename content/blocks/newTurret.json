@@ -18,7 +18,7 @@ shootSound: mediumCannon
 forceMultiTarget: true
 
 reload: 80
-inaccuracy: 5
+inaccuracy: 0
 recoil: 1
 
 coolant: {
