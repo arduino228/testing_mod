@@ -19,7 +19,7 @@ weapons: [
         rotate: false
         x: 4
         y: 0
-        reload: 15
+        reload: 1
         mirror: true
         shootSound: artillery
         recoil: 1
