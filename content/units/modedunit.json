@@ -20,7 +20,7 @@ weapons: [
         x: 5
         y: 0
         reload: 15
-        mirror: true
+        mirror: false
         shootSound: artillery
         recoil: 1
         shootStatus: slow
