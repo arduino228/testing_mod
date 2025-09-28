@@ -33,7 +33,7 @@ shoot: {
 }
 ammoTypes: {
   scrap: {
-    type: FireBulletType
+    type: FlakBulletType
     damage: 50
     speed: 6
     width: 6
