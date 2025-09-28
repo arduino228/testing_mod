@@ -33,7 +33,7 @@ shoot: {
 }
 ammoTypes: {
   scrap: {
-    type: BasicBulletType
+    type: FireBulletType
     damage: 50
     speed: 6
     width: 6
