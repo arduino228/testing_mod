@@ -43,7 +43,7 @@ weapons: [
         }
     },
     {
-        name: weapone2-barrel
+        name: weapon2-barrel
         top: false
         rotate: false
         rotateSpeed: 3
