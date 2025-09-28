@@ -55,5 +55,6 @@ ammoTypes: {
     despawnEffect: hitBulletColor
    
     lightingColor: f0df48
+    trailColor: f0df48
   }
 }
