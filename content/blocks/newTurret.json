@@ -39,6 +39,9 @@ ammoTypes: {
     damage: 150
 
     pierceArmor: true
+    status: {
+      electrified:{}
+    }
 
     speed: 8
     width: 6
