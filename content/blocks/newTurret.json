@@ -31,7 +31,7 @@ coolant: {
 
 shoot: {
   shots: 1
-  shotDelay: 2
+  shotDelay: 6
 }
 ammoTypes: {
   scrap: {
