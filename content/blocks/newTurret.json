@@ -37,6 +37,9 @@ ammoTypes: {
   scrap: {
     type: BacicBulletType
     damage: 150
+
+    pierceArmor: true
+
     speed: 8
     width: 6
     height: 8
