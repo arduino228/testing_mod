@@ -53,7 +53,7 @@ abilities: [
     {
     type: ForceFieldAbility
     sides: 3
-    
+    radius: 30
     }
 ]
 
