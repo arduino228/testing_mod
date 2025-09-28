@@ -48,5 +48,7 @@ ammoTypes: {
     smokeEffect: shootSmokeDisperse
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
+   
+    lightColor: f0df48
   }
 }
