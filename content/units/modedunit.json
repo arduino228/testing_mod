@@ -58,5 +58,10 @@ abilities: [
     }
 ]
 
+legCount: 2
+legGroupSize: 1
+legLength: 10
+legSpeed: 2
+
 research: []
 researchCostMultiplier: 3
