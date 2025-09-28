@@ -39,8 +39,8 @@ ammoTypes: {
     width: 6
     height: 8
     lifetime: 30
-    trailWidth: 3
-    trailLength: 4.6
+    trailWidth: 1
+    trailLength: 1
 
     shootEffect: shootSmokeSquare
     smokeEffect: shootSmokeDisperse
