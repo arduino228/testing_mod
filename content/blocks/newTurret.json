@@ -3,7 +3,7 @@ category: turret
 health: 1000
 armor: 3
 size: 1
-range: 100
+range: 300
 minRange: 60
 ammoEjectBack: 2
 ammoPerShot: 3
@@ -34,13 +34,13 @@ shoot: {
 ammoTypes: {
   scrap: {
     type: FlakBulletType
-    damage: 50
-    speed: 0.5
+    damage: 150
+    speed: 8
     width: 6
     height: 8
-    lifetime: 300
+    lifetime: 30
     trailWidth: 1
-    trailLength: 1
+    trailLength: 5
 
     shootEffect: shootSmokeSquare
     smokeEffect: shootSmokeDisperse
