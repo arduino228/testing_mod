@@ -17,7 +17,7 @@ weapons: [
     {
         name: modedunit-weapon2
         rotate: false
-        x: -4
+        x: -8
         y: 0
         reload: 1
         mirror: true
