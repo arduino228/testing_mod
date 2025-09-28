@@ -19,7 +19,7 @@ forceMultiTarget: true
 
 reload: 80
 inaccuracy: 0
-recoil: 1
+recoil: 10
 
 coolant: {
   type: ConsumeCoolant
