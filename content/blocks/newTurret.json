@@ -54,6 +54,6 @@ ammoTypes: {
     hitEffect: hitBulletColor
     despawnEffect: hitBulletColor
    
-    lightColor: f0df48
+    lightingColor: f0df48
   }
 }
