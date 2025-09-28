@@ -17,7 +17,7 @@ weapons: [
     {
         name: weapon2
         rotate: false
-        x: 5
+        x: 4
         y: 0
         reload: 15
         mirror: false
