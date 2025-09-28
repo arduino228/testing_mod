@@ -33,12 +33,12 @@ shoot: {
 }
 ammoTypes: {
   scrap: {
-    type: fireball
-    damage: 35
+    type: ExplosionBulletType
+    damage: 50
     speed: 6
     width: 6
     height: 8
-    lifetime: 60
+    lifetime: 30
     trailWidth: 3
     trailLength: 4.6
 
