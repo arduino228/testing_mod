@@ -8,6 +8,8 @@ minRange: 60
 ammoEjectBack: 2
 ammoPerShot: 3
 
+drawMinRange: true
+
 outlines: false
 
 requirements: [
