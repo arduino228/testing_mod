@@ -52,8 +52,9 @@ abilities: [
     },
     {
     type: ForceFieldAbility
-    sides: 8
-    radius: 10
+    sides: 4
+    rotation: 45
+    radius: 15
     }
 ]
 
