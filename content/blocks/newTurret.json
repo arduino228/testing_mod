@@ -35,7 +35,7 @@ shoot: {
 }
 ammoTypes: {
   scrap: {
-    type: FlakBulletType
+    type: BacicBulletType
     damage: 150
     speed: 8
     width: 6
