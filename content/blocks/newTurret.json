@@ -16,6 +16,8 @@ requirements: [
   scrap/640
 ]
 
+research: copper-wall
+
 shootSound: mediumCannon
 forceMultiTarget: true
 
@@ -58,4 +60,3 @@ ammoTypes: {
     trailColor: f0df48
   }
 }
-research: copper-wall
