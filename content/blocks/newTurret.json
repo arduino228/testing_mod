@@ -19,7 +19,7 @@ requirements: [
 shootSound: mediumCannon
 forceMultiTarget: true
 
-reload: 80
+reload: 40
 inaccuracy: 0
 recoil: 10
 
@@ -57,5 +57,5 @@ ammoTypes: {
     lightingColor: f0df48
     trailColor: f0df48
   }
-research: scrap
 }
+research: scrap
