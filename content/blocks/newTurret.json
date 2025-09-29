@@ -57,4 +57,5 @@ ammoTypes: {
     lightingColor: f0df48
     trailColor: f0df48
   }
+research: scrap
 }
