@@ -2,16 +2,16 @@
         "type": "ForceProjector",
         "name": "Мини щит",
         "discription": "...",
-        "health": 100,
+        "health": 120,
         "size": 1,
         "requirements": [
-{"item": "copper", "amount": 24},
-{"item": "lead", "amount": 24},
-{"item": "silicon", "amount": 12}
+{"item": "copper", "amount": 25},
+{"item": "lead", "amount": 33},
+{"item": "silicon", "amount": 40}
         
         ]
         "consumes": {
-             "power": 1.5
+             "power": 1.33
              },
         "sides": 6,
         "radius": 50,
@@ -19,6 +19,6 @@
         "category": "effect",
         "breakCooldown": 60,
         "regenSpeed": 0.1,
-        "shieldHealth": 375,
+        "shieldHealth": 250,
 
 }
