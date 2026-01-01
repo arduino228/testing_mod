@@ -2,7 +2,7 @@
 	"type": "wall",
 	"name": "Большая стена из металлолома",
 	"discription": "никто не пройдет",
-	"health": 10000,
+	"health": 1100,
 	"size": 2,
 	"requirements": [
 		{"item": "copper", "amount": 1 },
