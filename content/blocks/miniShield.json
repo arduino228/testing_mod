@@ -17,9 +17,11 @@
         "radius": 50,
         "shieldRotation": 0,
         "category": "effect",
-        "breakCooldown": 35.29411765,
+        "cooldownNormal": 0.5833333333,
+        "cooldownLiquid" : 0.5,
         "regenSpeed": 30,
         "shieldHealth": 250,
+        "coolantConsumption": 0.035,
 
         "research" : copper-wall
 }
