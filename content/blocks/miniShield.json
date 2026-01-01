@@ -17,8 +17,8 @@
         "radius": 50,
         "shieldRotation": 0,
         "category": "effect",
-        "breakCooldown": 60,
-        "regenSpeed": 0.1,
+        "breakCooldown": 35.29411765,
+        "regenSpeed": 0.02857142857,
         "shieldHealth": 250,
 
 }
