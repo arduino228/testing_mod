@@ -1,19 +1,19 @@
 type: itemTurret
 category: turret
-health: 1000
+health: 180
 armor: 3
 size: 1
-range: 300
-minRange: 60
-ammoEjectBack: 2
-ammoPerShot: 3
+range: 60
+minRange: 0
+ammoEjectBack: 3
+ammoPerShot: 0.5
 
-drawMinRange: true
+drawMinRange: false
 
-outlines: false
+outlines: true
 
 requirements: [
-  scrap/640
+  scrap/120
 ]
 
 research: copper-wall
@@ -21,24 +21,24 @@ research: copper-wall
 shootSound: mediumCannon
 forceMultiTarget: true
 
-reload: 40
+reload: 20
 inaccuracy: 0
-recoil: 10
+recoil: 3
 
 coolant: {
   type: ConsumeCoolant
-  allowLiquid: true
+  allowLiquid: false
   amount: 0.3
 }
 
 shoot: {
   shots: 1
-  shotDelay: 6
+  shotDelay: 3
 }
 ammoTypes: {
   scrap: {
     type: BacicBulletType
-    damage: 150
+    damage: 15
 
     pierceArmor: true
     status: electrified
