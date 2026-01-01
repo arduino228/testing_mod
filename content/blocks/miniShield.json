@@ -11,14 +11,14 @@
         
         ]
         "consumes": {
-             "power": 1.3333333
+             "power": 1.33333333
              },
         "sides": 6,
         "radius": 50,
         "shieldRotation": 0,
         "category": "effect",
         "breakCooldown": 35.29411765,
-        "regenSpeed": 0.02857,
+        "regenSpeed": 30,
         "shieldHealth": 250,
 
 }
