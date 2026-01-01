@@ -23,5 +23,5 @@
         "shieldHealth": 250,
         "coolantConsumption": 0.035,
 
-        "research" : copper-wall
+        "research" : "copper-wall"
 }
