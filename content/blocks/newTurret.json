@@ -20,7 +20,7 @@ forceMultiTarget: true
 
 reload: 20
 inaccuracy: 0
-recoil: 3
+recoil: 1.5
 
 
 shoot: {
