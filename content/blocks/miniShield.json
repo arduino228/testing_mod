@@ -21,4 +21,5 @@
         "regenSpeed": 30,
         "shieldHealth": 250,
 
+        "research" : copper-wall
 }
