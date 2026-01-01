@@ -4,13 +4,10 @@ health: 180
 armor: 3
 size: 1
 range: 60
-minRange: 0
 ammoEjectBack: 3
-ammoPerShot: 0.5
+ammoPerShot: 1
 
-drawMinRange: false
-
-outlines: true
+outlines: false
 
 requirements: [
   scrap/120
@@ -25,11 +22,6 @@ reload: 20
 inaccuracy: 0
 recoil: 3
 
-coolant: {
-  type: ConsumeCoolant
-  allowLiquid: false
-  amount: 0.3
-}
 
 shoot: {
   shots: 1
@@ -42,7 +34,7 @@ ammoTypes: {
 
     pierceArmor: true
     status: electrified
-    statusDuration: 500
+    statusDuration: 50
 
     speed: 8
     width: 6
