@@ -1,5 +1,5 @@
 generator: "PlanetGenerator"
-localizedName: Frostnova
+localizedName: Gleba
 description: The rampant, filled with dangerous natives.
 accessible: true
 visible: true
@@ -8,7 +8,7 @@ mesh: [
     {
     //cobaltbiome
     type: NoiseMesh
-    planet: frostnova
+    planet: Gleba
     divisions: 5
     seed: 76
     radius: 1.120
@@ -22,7 +22,7 @@ mesh: [
     {
     //tantrabiome
     type: NoiseMesh
-    planet: frostnova
+    planet: Gleba
     divisions: 5
     seed: 52
     radius: 1.100
@@ -35,7 +35,7 @@ mesh: [
 cloudMesh: [
    {
    type: HexSkyMesh
-   planet: frostnova
+   planet: Gleba
    seed: 3
    speed: 0.45
    radius: 0.15
@@ -57,10 +57,11 @@ allowSectorInvasion: false
 allowSelfSectorLaunch: false
 allowWaveSimulation: false
 
-iconColor: 98c1f5
-landCloudColor: e2effc60
+iconColor: 49cc56
+landCloudColor: 8ae6a2
+
 hasAtmosphere: true
-bloom: false
+bloom: true
 
 fog: true
 showSpawns: true
