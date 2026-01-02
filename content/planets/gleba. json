@@ -69,7 +69,7 @@ campaignRuleDefaults.showSpawns: true
 
 startSector: 0
 sectorSize: 3
-parent: sun
+parent: erekir
 solarSystem: sun
 tidalLock: true
 orbitRadius: 80
