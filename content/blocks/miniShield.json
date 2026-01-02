@@ -24,6 +24,7 @@
         "coolantConsumption": 0.035,
         init("optionalConsumers"): {
               "water": {
+                    "radius": 55,
                     "regenSpeed": 31,
                     "cooldown": 0.55},
               },
