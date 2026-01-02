@@ -17,11 +17,12 @@
         "radius": 50,
         "shieldRotation": 0,
         "category": "effect",
+        "consumeCoolant": false,
         "cooldownNormal": 0.5833333333,
         "cooldownLiquid" : 0.5,
+        "cooldownBrokenBase" :0.12,
         "regenSpeed": 25,
         "shieldHealth": 250,
-        "consumeCoolant": false,
         "coolantConsumption": 0.035,
         init("optionalConsumers"): {
               "water": {
