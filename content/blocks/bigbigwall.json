@@ -5,8 +5,7 @@
 	"health": 1100,
 	"size": 2,
 	"requirements": [
-		{"item": "copper", "amount": 1 },
-		{"item": "lead", "amount": 1 }
+		{"item": "scrapp", "amount": 24 }
 	],
 	"category": "defense",
 	"research": "copper-wall"
