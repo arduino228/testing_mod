@@ -21,6 +21,7 @@
         "cooldownLiquid" : 0.5,
         "regenSpeed": 25,
         "shieldHealth": 250,
+        "consumeCoolant": false,
         "coolantConsumption": 0.035,
         init("optionalConsumers"): {
               "water": {
@@ -29,5 +30,6 @@
                     "cooldown": 0.55},
               },
 
+        "researchCostMultiplier": 10,
         "research" : "copper-wall"
 }
