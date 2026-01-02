@@ -1,1 +1,109 @@
+generator: "PlanetGenerator"
+localizedName: Frostnova
+description: The rampant, filled with dangerous natives.
+accessible: true
+visible: true
+alwaysUnlocked: true
+mesh: [
+    {
+    //cobaltbiome
+    type: NoiseMesh
+    planet: frostnova
+    divisions: 5
+    seed: 76
+    radius: 1.120
+    color1: 252d40
+    color2: 384d6c
+    octaves: 3
+    persistence: 1.1
+    mag: 1.6
+    scl: 5
+    }
+    {
+    //tantrabiome
+    type: NoiseMesh
+    planet: frostnova
+    divisions: 5
+    seed: 52
+    radius: 1.100
+    color1: 505e7f
+    color2: 303c58
+    octaves: 3
+    persistence: 1.1
+    }
+]
+cloudMesh: [
+   {
+   type: HexSkyMesh
+   planet: frostnova
+   seed: 3
+   speed: 0.45
+   radius: 0.15
+   divisions: 5
+   color: e2effc60
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.45
+   }
+]
 
+allowCampaignRules: true
+allowLaunchLoadout: false
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLegacyLaunchPads: false
+allowSectorInvasion: false
+allowSelfSectorLaunch: false
+allowWaveSimulation: false
+
+iconColor: 98c1f5
+landCloudColor: e2effc60
+hasAtmosphere: true
+bloom: false
+
+fog: true
+showSpawns: true
+campaignRuleDefaults.fog: true
+campaignRuleDefaults.showSpawns: true
+
+startSector: 0
+sectorSize: 3
+parent: sun
+solarSystem: sun
+tidalLock: true
+orbitRadius: 80
+orbitTime: 3000
+orbitSpacing: 1
+radius: 1.2
+
+prebuildBase: true
+clearSectorOnLose: true
+coreDestroyClear: true
+onlyDepositCore: true
+defaultCore: 11k-01-core-apex
+enemyBuildSpeedMultiplier: 0.2
+enemyCoreSpawnReplace: false
+updateLighting: false
+
+launchCandidates: []
+itemWhitelist: [
+  "01a-01-item-cobalt",
+  "01a-02-item-nickel",
+  "01a-03-item-anthracite",
+  "01a-03-item-aquashard",
+  "01a-03-item-lamine",
+  "01a-04-item-tantra-sand",
+  "01a-05-item-aluminium",
+  "01a-05-item-raw-nichrome",
+  "01a-06-item-chromium",
+  "01a-07-item-clevorite",
+  "01a-08-item-nucrid",
+  "01a-08-item-petal"
+  "01a-08-item-petal-flower",
+  "01a-09-item-morphite",
+  "01a-10-item-bethine",
+  "01a-11-item-pyroxene",
+  "01a-11-item-technoscrap",
+  "01a-12-item-techno-plating",
+]
