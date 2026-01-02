@@ -5,9 +5,9 @@
         "health": 120,
         "size": 1,
         "requirements": [
-{"item": "copper", "amount": 25},
-{"item": "lead", "amount": 33},
-{"item": "silicon", "amount": 40}
+{"item": "copper", "amount": 25}
+#{"item": "lead", "amount": 33},
+#{"item": "silicon", "amount": 40}
         
         ]
         "consumes": {
