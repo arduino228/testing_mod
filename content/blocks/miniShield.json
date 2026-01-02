@@ -23,7 +23,8 @@
         "shieldHealth": 250,
         "coolantConsumption": 0.035,
         "optionalConsumers": {
-              "",
+              "water": {},
+              "cryofluid": {}
               },
 
         "research" : "copper-wall"
