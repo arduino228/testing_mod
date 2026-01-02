@@ -72,8 +72,8 @@ sectorSize: 6
 parent: sun
 solarSystem: sun
 tidalLock: true
-orbitRadius: 20
-orbitTime: 300
+orbitRadius: 60
+orbitTime: 1500
 orbitSpacing: 1
 radius: 0.6
 
