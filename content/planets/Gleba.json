@@ -40,7 +40,7 @@ cloudMesh: [
    speed: 0.45
    radius: 0.15
    divisions: 5
-   color: 8ae6a2
+   color: 345159
    octaves: 3
    persistence: 0.3
    scl: 1
@@ -57,7 +57,7 @@ allowSectorInvasion: false
 allowSelfSectorLaunch: false
 allowWaveSimulation: false
 
-iconColor: 8ae6a2
+iconColor: beccc9
 landCloudColor: 49cc56
 
 hasAtmosphere: true
