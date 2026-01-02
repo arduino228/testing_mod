@@ -22,7 +22,7 @@
         "regenSpeed": 28,
         "shieldHealth": 250,
         "coolantConsumption": 0.035,
-        init():
+        init(),
            "optionalConsumers": {
               "water": {},
               "cryofluid": {}
