@@ -68,14 +68,14 @@ campaignRuleDefaults.fog: true
 campaignRuleDefaults.showSpawns: true
 
 startSector: 0
-sectorSize: 6
+sectorSize: 3
 parent: sun
 solarSystem: sun
 tidalLock: true
-orbitRadius: 60
-orbitTime: 1500
+orbitRadius: 80
+orbitTime: 3000
 orbitSpacing: 1
-radius: 0.6
+radius: 1.2
 
 prebuildBase: true
 clearSectorOnLose: true
