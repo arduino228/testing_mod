@@ -57,8 +57,8 @@ allowSectorInvasion: false
 allowSelfSectorLaunch: false
 allowWaveSimulation: false
 
-iconColor: 98c1f5
-landCloudColor: e2effc60
+iconColor: 49cc56
+landCloudColor: 8ae6a2
 hasAtmosphere: true
 bloom: false
 
