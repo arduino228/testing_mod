@@ -1,0 +1,89 @@
+generator: "PlanetGenerator"
+localizedName: Глеба
+description: The rampant, filled with dangerous natives.
+accessible: true
+visible: true
+alwaysUnlocked: true
+mesh: [
+    {
+    //cobaltbiome
+    type: NoiseMesh
+    planet: Глеба
+    divisions: 5
+    seed: 76
+    radius: 1.120
+    color1: 252d40
+    color2: 384d6c
+    octaves: 3
+    persistence: 1.1
+    mag: 1.6
+    scl: 5
+    }
+    {
+    //tantrabiome
+    type: NoiseMesh
+    planet: Глеба
+    divisions: 5
+    seed: 52
+    radius: 1.100
+    color1: 505e7f
+    color2: 303c58
+    octaves: 3
+    persistence: 1.1
+    }
+]
+cloudMesh: [
+   {
+   type: HexSkyMesh
+   planet: Глеба
+   seed: 3
+   speed: 0.45
+   radius: 0.15
+   divisions: 5
+   color: e2effc60
+   octaves: 3
+   persistence: 0.3
+   scl: 1
+   thresh: 0.45
+   }
+]
+
+allowCampaignRules: true
+allowLaunchLoadout: false
+allowLaunchSchematics: false
+allowLaunchToNumbered: false
+allowLegacyLaunchPads: false
+allowSectorInvasion: false
+allowSelfSectorLaunch: false
+allowWaveSimulation: false
+
+iconColor: 98c1f5
+landCloudColor: e2effc60
+hasAtmosphere: true
+bloom: false
+
+fog: true
+showSpawns: true
+campaignRuleDefaults.fog: true
+campaignRuleDefaults.showSpawns: true
+
+startSector: 0
+sectorSize: 6
+parent: sun
+solarSystem: sun
+tidalLock: true
+orbitRadius: 20
+orbitTime: 300
+orbitSpacing: 1
+radius: 0.6
+
+prebuildBase: true
+clearSectorOnLose: true
+coreDestroyClear: true
+onlyDepositCore: true
+
+enemyBuildSpeedMultiplier: 0.2
+enemyCoreSpawnReplace: false
+updateLighting: false
+
+launchCandidates: []
