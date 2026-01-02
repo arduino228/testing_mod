@@ -17,7 +17,6 @@
         "consumeCoolant": false,
         "cooldownNormal": 0.5833333333,
         "cooldownLiquid" : 0.5,
-        "cooldownBrokenBase" :0.12,
         "regenSpeed": 25,
         "shieldHealth": 250,
         "coolantConsumption": 0.035,
@@ -28,6 +27,6 @@
                     "cooldown": 0.55},
               },
 
-        "researchCostMultiplier": 10,
+        "researchCostMultiplier": 1,
         "research" : "copper-wall"
 }
