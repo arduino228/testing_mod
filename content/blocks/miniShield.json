@@ -19,12 +19,13 @@
         "category": "effect",
         "cooldownNormal": 0.5833333333,
         "cooldownLiquid" : 0.5,
-        "regenSpeed": 28,
+        "regenSpeed": 25,
         "shieldHealth": 250,
         "coolantConsumption": 0.035,
         init("optionalConsumers"): {
-              "water": {},
-              "cryofluid": {}
+              "water": {
+                    "regenSpeed": 31,
+                    "cooldown": 0.55},
               },
 
         "research" : "copper-wall"
