@@ -1,5 +1,5 @@
 generator: "PlanetGenerator"
-localizedName: Глеба
+localizedName: Gleba
 description: The rampant, filled with dangerous natives.
 accessible: true
 visible: true
@@ -8,7 +8,7 @@ mesh: [
     {
     //cobaltbiome
     type: NoiseMesh
-    planet: Глеба
+    planet: Gleba
     divisions: 5
     seed: 76
     radius: 1.120
@@ -22,7 +22,7 @@ mesh: [
     {
     //tantrabiome
     type: NoiseMesh
-    planet: Глеба
+    planet: Gleba
     divisions: 5
     seed: 52
     radius: 1.100
@@ -35,7 +35,7 @@ mesh: [
 cloudMesh: [
    {
    type: HexSkyMesh
-   planet: Глеба
+   planet: Gleba
    seed: 3
    speed: 0.45
    radius: 0.15
