@@ -19,7 +19,7 @@
         "category": "effect",
         "cooldownNormal": 0.5833333333,
         "cooldownLiquid" : 0.5,
-        "regenSpeed": 30,
+        "regen": 0.02,
         "shieldHealth": 250,
         "coolantConsumption": 0.035,
 
