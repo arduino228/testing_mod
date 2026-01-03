@@ -16,7 +16,7 @@
         itemCapacity: 500 
         maxAmmo: 250 
         ammoTypes: { 
-                titanit: { 
+                copper: { 
                         speed: 10.0 
                         damage: 55 
                         reloadMultiplier: 1.0 
