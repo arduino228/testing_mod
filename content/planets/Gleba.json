@@ -1,12 +1,11 @@
 generator: "PlanetGenerator"
 localizedName: Gleba
 description: The rampant, filled with dangerous natives.
-accessible: true
+accessible: false
 visible: true
 alwaysUnlocked: true
 mesh: [
     {
-    //cobaltbiome
     type: NoiseMesh
     planet: Gleba
     divisions: 5
@@ -19,8 +18,8 @@ mesh: [
     mag: 1.6
     scl: 5
     }
+    
     {
-    //tantrabiome
     type: NoiseMesh
     planet: Gleba
     divisions: 5
@@ -83,6 +82,7 @@ clearSectorOnLose: true
 coreDestroyClear: true
 onlyDepositCore: true
 
+defaultCore: "Core" 
 enemyBuildSpeedMultiplier: 0.2
 enemyCoreSpawnReplace: false
 updateLighting: false
