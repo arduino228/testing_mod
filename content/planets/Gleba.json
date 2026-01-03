@@ -82,7 +82,7 @@ clearSectorOnLose: true
 coreDestroyClear: true
 onlyDepositCore: true
 
-defaultCore: "Core" 
+//defaultCore: "Core" 
 enemyBuildSpeedMultiplier: 0.2
 enemyCoreSpawnReplace: false
 updateLighting: false
