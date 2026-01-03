@@ -1,0 +1,12 @@
+{
+	"type": "wall",
+	"name": "Стена из металлолома",
+	"discription": "никто не пройдет",
+	"health": 275,
+	"size": 2,
+	"requirements": [
+		{"item": "scrap", "amount": 6 }
+	],
+	"category": "defense",
+	"research": "copper-wall"
+}
