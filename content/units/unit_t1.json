@@ -1,6 +1,6 @@
 {
-  "type": "mech"
-  "flying": false
+  "type": "flying"
+  "flying": true
   "health": 80
   "armor": 0
   "hitSize": 12
