@@ -3,7 +3,7 @@ category: turret
 health: 180
 armor: 3
 size: 1
-range: 60
+range: 160
 ammoEjectBack: 3
 ammoPerShot: 1
 
@@ -30,16 +30,16 @@ shoot: {
 ammoTypes: {
   scrap: {
     type: BacicBulletType
-    damage: 15
+    damage: 16
 
     pierceArmor: true
     status: electrified
     statusDuration: 50
 
-    speed: 8
+    speed: 6
     width: 6
     height: 8
-    lifetime: 15
+    lifetime: 26,66667
     trailWidth: 0
     trailLength: 0
 
