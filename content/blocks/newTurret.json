@@ -13,9 +13,9 @@ requirements: [
   scrap/120
 ]
 
-research: copper-wall
+research: duo
 
-shootSound: mediumCannon
+shootSound: smallCannon
 forceMultiTarget: true
 
 reload: 20
