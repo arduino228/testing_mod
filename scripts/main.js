@@ -1,2 +1,2 @@
 require("blocks");
-//require("items");
+require("items");
