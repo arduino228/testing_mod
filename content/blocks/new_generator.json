@@ -1,8 +1,8 @@
 {
 "type": "block",
-"health": 1260
+"health": 1260,
 "hasPower": true,
 "outputsPower": true,
 "hasItems" : true,
-"itemCapacity": 20,
+"itemCapacity": 20
 }
