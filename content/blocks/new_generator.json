@@ -9,7 +9,7 @@
 "category": "power",
 "consumes": {
     "items"[
-        "item": "metaglass", "amount": 1
+        {"item": "metaglass", "amount": 1}
     ]
             },
 "outputItem": "sand", "amount": 2,
