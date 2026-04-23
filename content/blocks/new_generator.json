@@ -1,10 +1,11 @@
 {
-"type": "PowerGeneratir",
+"type": "PowerGenerator",
 "health": 220,
 "hasPower": true,
 "outputsPower": true,
 "hasItems" : true,
 "itemCapacity": 20,
+"explosionDamage": 110,
 "size": 2,
 "category": "power",
 "powerProduction": 8,
