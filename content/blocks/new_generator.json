@@ -10,6 +10,7 @@
 "consumes": {
     "metalglass": 1
             },
+"outputItem": "sand", "amount": 2,
 "requirements": [
     {"item": "copper", "amount": 40},
     {"item": "lead", "amount": 55},
