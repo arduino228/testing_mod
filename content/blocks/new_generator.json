@@ -8,7 +8,9 @@
 "size": 1,
 "category": "power",
 "consumes": {
-    "item": "metaglass", "amount": 1
+    "items"[
+        "item": "metaglass", "amount": 1
+    ]
             },
 "outputItem": "sand", "amount": 2,
 "requirements": [
