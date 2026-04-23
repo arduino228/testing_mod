@@ -1,5 +1,6 @@
 {
-"type": block,
+"type": "block",
+"health": 1260
 "hasPower": true,
 "outputsPower": true,
 "hasItems" : true,
