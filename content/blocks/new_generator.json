@@ -8,11 +8,11 @@
 "explosionDamage": 110,
 "size": 2,
 "category": "power",
-"powerProduction": 8,
 "consumes": {
     "items": [
         {"item": "metaglass", "amount": 1}
     ]
+"powerProduction": 8,
             },
 "outputItem": {"item": "sand", "amount": 2},
 "requirements": [
