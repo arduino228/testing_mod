@@ -1,5 +1,7 @@
 {
 "type": block,
-"hasPower": true
+"hasPower": true,
+"outputsPower": true,
 "hasItems" : true,
+
 }
