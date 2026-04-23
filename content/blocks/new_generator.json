@@ -1,5 +1,5 @@
 {
-"type": "block",
+"type": "PowerGeneratir",
 "health": 220,
 "hasPower": true,
 "outputsPower": true,
