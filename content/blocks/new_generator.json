@@ -12,8 +12,8 @@
     "items": [
         {"item": "metaglass", "amount": 1}
     ]
-"powerProduction": 8,
             },
+"powerProduction": 8,
 "outputItem": {"item": "sand", "amount": 2},
 "requirements": [
     {"item": "copper", "amount": 40},
