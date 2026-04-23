@@ -1,11 +1,11 @@
 {
-"type": "block",
+"type": "",
 "health": 220,
 "hasPower": true,
 "outputsPower": true,
 "hasItems" : true,
 "itemCapacity": 20,
-"size": 1,
+"size": 2,
 "category": "power",
 "consumes": {
     "items": [
