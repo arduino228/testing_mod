@@ -3,5 +3,5 @@
 "hasPower": true,
 "outputsPower": true,
 "hasItems" : true,
-
+"itemCapacity": 20,
 }
