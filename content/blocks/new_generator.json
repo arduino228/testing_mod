@@ -1,8 +1,20 @@
 {
 "type": "block",
-"health": 1260,
+"health": 220,
 "hasPower": true,
 "outputsPower": true,
 "hasItems" : true,
-"itemCapacity": 20
+"itemCapacity": 20,
+"size": 1,
+"category": "power",
+"consumes": {
+    "metalglass": 1
+            },
+"requirements": [
+    {"item": "copper", "amount": 40},
+    {"item": "lead", "amount": 55},
+    {"item": "graphite","amount": 20},
+    {"item": "silicon", "amount": 40}   
+        ]
+
 }
