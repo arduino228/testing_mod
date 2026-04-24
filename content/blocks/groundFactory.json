@@ -1,13 +1,13 @@
-"replace": true,
 "type": "UnitFactory",
 "name": "UnitFactory",
 "description": "Assembles advanced units from supplied materials.",
+"category": "units",
+"replace": true,
 
 "size": 3,
 "health": 1200,
 
 "requirements": [
-  power/460
   copper/50,
   lead/120,
   silicon/80
