@@ -14,36 +14,35 @@
 
 "plans": [
   {
-    "unit": "dagger"
-    "time"/15
+    "unit": "dagger",
+    "time":15,
     "requirements": [
       silicon/10,
       lead/10
     ]
   },
   {
-    "unit": "crawler"
+    "unit": "crawler",
+    "time":10,
     "requirements": [
-      coal/8,
-      silicon/10
+      silicon/8,
+      coal/10
     ]
   },
   {
-    "unit": "flare"
+    "unit": "nova",
+    "time":40,
     "requirements": [
-      silicon/15
-    ]
-  },
-  {
-    "unit": "mono"
-    "requirements": [
-      lead/15,
-      silicon/30
+      silicon/30,
+      lead/20,
+      titanium/20
     ]
   },
   {
     "unit": "new_unit_branch_t1"
+    "time": 20
     "requirements": [
+      silicon/10,
       coal/15
     ]
   }
