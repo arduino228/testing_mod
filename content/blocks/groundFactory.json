@@ -20,7 +20,7 @@
 "plans": [
   {
     "unit": "dagger",
-    "time":15,
+    "time":960,
     "requirements": [
       silicon/10,
       lead/10
@@ -28,7 +28,7 @@
   },
   {
     "unit": "crawler",
-    "time":10,
+    "time":640,
     "requirements": [
       silicon/8,
       coal/10
@@ -36,7 +36,7 @@
   },
   {
     "unit": "nova",
-    "time":64,
+    "time":2560,
     "requirements": [
       silicon/30,
       lead/20,
@@ -45,7 +45,7 @@
   },
   {
     "unit": "new_unit_branch_t1"
-    "time": 20
+    "time": 1280,
     "requirements": [
       silicon/10,
       coal/15
