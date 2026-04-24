@@ -1,5 +1,5 @@
 "type": "UnitFactory",
-"name": "GroundFactory",
+"name": "Ground Factory",
 "description": "Assembles advanced units from supplied materials.",
 "category": "units",
 "replace": true,
@@ -36,7 +36,7 @@
   },
   {
     "unit": "nova",
-    "time":70,
+    "time":68,
     "requirements": [
       silicon/30,
       lead/20,
