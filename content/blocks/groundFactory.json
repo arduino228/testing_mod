@@ -7,17 +7,18 @@
 "health": 1200,
 
 "requirements": [
-  copper/400,
-  lead/300,
-  silicon/250
+  copper/50,
+  lead/120,
+  silicon/80
 ],
 
 "plans": [
   {
     "unit": "dagger"
+    "time"/15
     "requirements": [
-      silicon/20,
-      lead/15
+      silicon/10,
+      lead/10
     ]
   },
   {
