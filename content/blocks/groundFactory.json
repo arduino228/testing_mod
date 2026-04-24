@@ -31,7 +31,7 @@
   },
   {
     "unit": "nova",
-    "time":40,
+    "time":70,
     "requirements": [
       silicon/30,
       lead/20,
