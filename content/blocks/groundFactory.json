@@ -1,53 +1,48 @@
 "replace": true
-type: UnitAssembler
-name: "unit-assembler"
-description: "Assembles advanced units from supplied materials."
+"type": "UnitFactory"
+"name": "UnitFactory"
+"description": "Assembles advanced units from supplied materials."
 
-size: 3
-health: 1200
+"size": 3
+"health": 1200
 
-requirements: [
-  copper/400
-  lead/300
-  silicon/250
+"requirements": [
+  "copper"/400
+  "lead"/300
+  "silicon"/250
 ]
 
-plans: [
+"plans": [
   {
-    unit: "dagger"
-    time: 60
-    requirements: [
-      silicon/20
-      lead/15
+    "unit": "dagger"
+    "requirements": [
+      "silicon"/20
+      "lead"/15
     ]
   },
   {
-    unit: "crawler"
-    time: 60
-    requirements: [
-      coal/8
-      silicon/10
+    "unit": "crawler"
+    "requirements": [
+      "coal"/8
+      "silicon"/10
     ]
   },
   {
-    unit: "flare"
-    time: 60
-    requirements: [
-      silicon/15
+    "unit": "flare"
+    "requirements": [
+      "silicon"/15
     ]
   },
   {
-    unit: "mono"
-    time: 60
-    requirements: [
-      lead/15
-      silicon/30
+    "unit": "mono"
+    "requirements": [
+      "lead"/15
+      "silicon"/30
     ]
   },
   {
-    unit:
-    time:
-    requirements: [
+    "unit": 
+    "requirements": [
       coal/15
     ]
   }
