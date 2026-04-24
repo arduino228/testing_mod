@@ -41,9 +41,9 @@
     ]
   },
   {
-    "unit": 
+    "unit": "new_unit_branch_t1"
     "requirements": [
-      coal/15
+      "coal"/15
     ]
   }
 ]
