@@ -1,5 +1,5 @@
 {
-"type": "PowerGenerator",
+"type": "ConsumeGenerator",
 "health": 220,
 "hasPower": true,
 "outputsPower": true,
