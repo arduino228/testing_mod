@@ -9,7 +9,7 @@
 	},
 
 "size": 3,
-"health": 1200,
+"health": 360,
 
 "requirements": [
   copper/50,
@@ -20,7 +20,7 @@
 "plans": [
   {
     "unit": "dagger",
-    "time":960,
+    "time":900,
     "requirements": [
       silicon/10,
       lead/10
@@ -28,7 +28,7 @@
   },
   {
     "unit": "crawler",
-    "time":640,
+    "time":600,
     "requirements": [
       silicon/8,
       coal/10
@@ -45,7 +45,7 @@
   },
   {
     "unit": "new_unit_branch_t1"
-    "time": 1280,
+    "time": 1200,
     "requirements": [
       silicon/10,
       coal/15
