@@ -1,49 +1,49 @@
-"replace": true
-"type": "UnitFactory"
-"name": "UnitFactory"
-"description": "Assembles advanced units from supplied materials."
+"replace": true,
+"type": "UnitFactory",
+"name": "UnitFactory",
+"description": "Assembles advanced units from supplied materials.",
 
-"size": 3
-"health": 1200
+"size": 3,
+"health": 1200,
 
 "requirements": [
-  "copper"/400
-  "lead"/300
-  "silicon"/250
-]
+  copper/400,
+  lead/300,
+  silicon/250
+],
 
 "plans": [
   {
     "unit": "dagger"
     "requirements": [
-      "silicon"/20
-      "lead"/15
+      silicon/20,
+      lead/15
     ]
   },
   {
     "unit": "crawler"
     "requirements": [
-      "coal"/8
-      "silicon"/10
+      coal/8,
+      silicon/10
     ]
   },
   {
     "unit": "flare"
     "requirements": [
-      "silicon"/15
+      silicon/15
     ]
   },
   {
     "unit": "mono"
     "requirements": [
-      "lead"/15
-      "silicon"/30
+      lead/15,
+      silicon/30
     ]
   },
   {
     "unit": "new_unit_branch_t1"
     "requirements": [
-      "coal"/15
+      coal/15
     ]
   }
 ]
