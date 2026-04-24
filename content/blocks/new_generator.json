@@ -1,6 +1,8 @@
 {
 "type": "ConsumeGenerator",
 "health": 220,
+"warmupSpeed": 200,
+"itemDuration": 60,
 "hasPower": true,
 "outputsPower": true,
 "hasItems" : true,
