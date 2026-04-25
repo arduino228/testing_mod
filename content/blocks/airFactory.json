@@ -1,8 +1,8 @@
 "type": "UnitFactory",
-"name": "Ground Factory",
+"name": "Air Factory",
 "description": "Assembles advanced units from supplied materials.",
 "category": "units",
-"replace": true,
+"replace": "airFactory",
 
 	"consumes": {
 		"power": 1.2,
@@ -19,19 +19,18 @@
 
 "plans": [
   {
-    "unit": "dagger",
+    "unit": "flare",
     "time":900,
     "requirements": [
-      silicon/10,
-      lead/10
+      silicon/15
     ]
   },
   {
-    "unit": "crawler",
+    "unit": "mono",
     "time":600,
     "requirements": [
-      silicon/8,
-      coal/10
+      silicon/30,
+      lead/15
     ]
   },
   {
