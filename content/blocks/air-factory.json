@@ -2,7 +2,7 @@
 "name": "Air Factory",
 "description": "Assembles advanced units from supplied materials.",
 "category": "units",
-"replace": "air-Factory",
+"replace": "air-factory",
 
 	"consumes": {
 		"power": 1.2,
