@@ -1,5 +1,5 @@
 "type": "UnitFactory",
-"name": "Air Factory",
+"name": "air-Factory",
 "description": "Assembles advanced units from supplied materials.",
 "category": "units",
 "replace": "air-factory",
