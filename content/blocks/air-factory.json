@@ -1,8 +1,8 @@
+"replace": true,
 "type": "UnitFactory",
 "name": "airFactory",
 "description": "Assembles advanced units from supplied materials.",
 "category": "units",
-"replace": true,
 
 	"consumes": {
 		"power": 1.2,
