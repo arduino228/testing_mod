@@ -27,19 +27,10 @@
   },
   {
     "unit": "mono",
-    "time":600,
+    "time":35*60,
     "requirements": [
       silicon/30,
       lead/15
-    ]
-  },
-  {
-    "unit": "nova",
-    "time":2400,
-    "requirements": [
-      silicon/30,
-      lead/20,
-      titanium/20
     ]
   },
   {
