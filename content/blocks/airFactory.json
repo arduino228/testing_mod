@@ -27,7 +27,7 @@
   },
   {
     "unit": "mono",
-    "time":35*60,
+    "time":2100,
     "requirements": [
       silicon/30,
       lead/15
