@@ -8,6 +8,6 @@
   "dependencies": [],
   "hidden": false,
   "subtitle": "yoooooo",
-  "main": "main"
+  "main": "scripts/main.js"
 
 }
