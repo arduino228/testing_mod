@@ -10,21 +10,21 @@
 
 "crashDamageMultiplier" : 5,
 
-itemCapacity: 10
+"itemCapacity": 10,
 
-abilities: [
+"abilities": [
     {
-    type: RegenAbility
-    amount: 0.05
+    "type": "RegenAbility",
+    amount: 0.05,
     },
     {
-    type: ForceFieldAbility
-    sides: 6
-    rotation: 0
-    radius: 9
+    "type": "ForceFieldAbility",
+    "sides": 6,
+    "rotation": 0,
+    "radius": 9,
     }
 ]
 
-research: []
-researchCostMultiplier: 5
+"research": []
+"researchCostMultiplier": 5
 }
