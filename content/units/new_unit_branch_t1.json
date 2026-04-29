@@ -14,8 +14,9 @@
 
 "abilities": [
     {
-    "type": "RegenAbility",
-    amount: 0.05,
+    "type": "SpawnDeathAbility",
+    "unit": "crawler",
+    "amount": 6
     },
     {
     "type": "ForceFieldAbility",
