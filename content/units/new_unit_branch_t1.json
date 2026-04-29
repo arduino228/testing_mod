@@ -1,13 +1,13 @@
-type: unit
-flying: true
-health: 300
-armor: 1
-hitSize: 10
-speed: 3
+"type": "unit",
+"flying": "true",
+"health": 300,
+"armor": 1,
+"hitSize": 10,
+"speed": 3,
 
-outlines: true
+"outlines": true,
 
-crashDamageMultiplier: 5
+"crashDamageMultiplier" : 5,
 
 itemCapacity: 10
 
