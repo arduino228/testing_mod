@@ -1,1 +1,28 @@
+type: unit
+flying: true
+health: 300
+armor: 1
+hitSize: 10
+speed: 3
 
+outlines: true
+
+crashDamageMultiplier: 5
+
+itemCapacity: 10
+
+abilities: [
+    {
+    type: RegenAbility
+    amount: 0.05
+    },
+    {
+    type: ForceFieldAbility
+    sides: 6
+    rotation: 0
+    radius: 9
+    }
+]
+
+research: []
+researchCostMultiplier: 5
