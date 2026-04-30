@@ -1,6 +1,5 @@
 {
-"type": "UnitType",
-constructor: UnitEntity::create,
+"type": "mech",
 "flying": true,
 
 "health": 200,
