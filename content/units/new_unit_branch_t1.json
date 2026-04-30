@@ -1,15 +1,15 @@
 {
 "type": "unit",
 "flying": "true",
-"health": 300,
+"health": 200,
 "armor": 1,
-"hitSize": 10,
+"hitSize": 6,
 "speed": 3,
+"range": 40,
 
 "outlines": true,
 
 "crashDamageMultiplier" : 5,
-
 "itemCapacity": 10,
 
 "abilities": [
@@ -27,5 +27,5 @@
 ]
 
 "research": "airFactory",
-"researchCostMultiplier": 5
+"researchCostMultiplier": 2
 }
