@@ -12,20 +12,6 @@
 "crashDamageMultiplier" : 5,
 "itemCapacity": 10,
 
-"abilities": [
-    {
-    "type": "SpawnDeathAbility",
-    "unit": "crawler",
-    "amount": 6
-    },
-    {
-    "type": "ForceFieldAbility",
-    "sides": 6,
-    "rotation": 0,
-    "radius": 9,
-    }
-]
-
 "research": "airFactory",
 "researchCostMultiplier": 2,
 
@@ -37,7 +23,7 @@
 
 "weapons": [
 {
-    "name": "crawler-bomb",
+    "name": "red-button",
     "reload": 9999,
     "shootOnDeath": true,
     "bullet": {
