@@ -1,7 +1,8 @@
 {
 "type": "UnitType",
-"constructor": "UnitEntity::create",
-"flying": "true",
+"constructor": UnitEntity::create,
+"flying": true,
+
 "health": 200,
 "armor": 1,
 "hitSize": 6,
@@ -10,7 +11,7 @@
 
 "outlines": true,
 
-"crashDamageMultiplier" : 5,
+"crashDamageMultiplier": 5,
 "itemCapacity": 10,
 
 "research": "airFactory",
@@ -23,7 +24,7 @@
 "engineSize": 2.5,
 
 "weapons": [
-{
+    {
     "name": "red-button",
     "reload": 9999,
     "shootOnDeath": true,
@@ -35,7 +36,7 @@
         "statusDuration": 480,
         "killShooter": true,
         "instantDisappear": true
-     }
-}
-]
+        }
+    }
+ ]
 }
