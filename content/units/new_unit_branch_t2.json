@@ -1,6 +1,7 @@
 {
-"type": "unit",
-"flying": "true",
+"type": "UnitType",
+"constructor": UnitEntity::create,
+"flying": true,
 "health": 300,
 "armor": 1,
 "hitSize": 10,
