@@ -30,6 +30,8 @@
         "type": "BombBulletType",
         "splashDamage": 110,
         "splashDamageRadius": 35,
+        "status": "burning",
+        "statusDuration": 480,
         "killShooter": true,
         "instantDisappear": true
      }
