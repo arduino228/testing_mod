@@ -16,7 +16,7 @@
     {
     "type": "SpawnDeathAbility",
     "unit": "crawler",
-    "amount": 6
+    "amount": 8
     },
     {
     "type": "ForceFieldAbility",
