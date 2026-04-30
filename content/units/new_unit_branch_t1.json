@@ -1,6 +1,6 @@
 {
 "type": "UnitType",
-"constructor": UnitEntity::create,
+"constructor = UnitEntity::create" ,
 "flying": "true",
 "health": 200,
 "armor": 1,
