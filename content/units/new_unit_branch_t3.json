@@ -1,1 +1,55 @@
+{
+"type": "unit",
+"flying": "true",
+"health": 300,
+"armor": 1,
+"hitSize": 10,
+"speed": 2,
 
+"outlines": true,
+
+"crashDamageMultiplier" : 5,
+
+"itemCapacity": 10,
+
+"abilities": [
+    {
+    "type": "SpawnDeathAbility",
+    "unit": "crawler",
+    "amount": 8
+    },
+    {
+    "type": "ForceFieldAbility",
+    "sides": 6,
+    "rotation": 0,
+    "radius": 9,
+    }
+]
+
+"accel": 0.08,
+"drag": 0.04,
+
+"engineOffset": 5,
+"engineSize": 2.5,
+
+"weapons": [
+{
+    "name": "red-button",
+    "reload": 9999,
+    "shootOnDeath": true,
+    "bullet": {
+        "type": "BombBulletType",
+        "splashDamage": 110,
+        "splashDamageRadius": 35,
+        "status": "sapped",
+        "statusDuration": 480,
+        "killShooter": true,
+        "instantDisappear": true
+     }
+}
+]
+
+
+"research": "new_unit_branch_t1",
+"researchCostMultiplier": 5
+}
