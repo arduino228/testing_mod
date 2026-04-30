@@ -1,5 +1,5 @@
 {
-"type": "unit",
+"type": "UnitType",
 "flying": "true",
 "health": 200,
 "armor": 1,
@@ -27,5 +27,26 @@
 ]
 
 "research": "airFactory",
-"researchCostMultiplier": 2
+"researchCostMultiplier": 2,
+
+"accel": 0.08,
+"drag": 0.04,
+
+"engineOffset": 5,
+"engineSize": 2.5,
+
+"weapons": [
+{
+    "name": "crawler-bomb",
+    "reload": 9999,
+    "shootOnDeath": true,
+    "bullet": {
+        "type": "BombBulletType",
+        "splashDamage": 110,
+        "splashDamageRadius": 35,
+        "killShooter": true,
+        "instantDisappear": true
+     }
+}
+]
 }
