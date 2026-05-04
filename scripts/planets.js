@@ -1,10 +1,6 @@
 const myPlanet = new Planet("my-planet", Planets.sun, 1);
 
-myPlanet.generator = extend(SerpuloPlanetGenerator, {
-    getHeight(position){
-        return 0.5; // безопасная заглушка
-    }
-});
+myPlanet.generator = new SerpuloPlanetGenerator();
 
 myPlanet.meshLoader = () => new HexMesh(myPlanet, 6);
 
