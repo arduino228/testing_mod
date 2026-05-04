@@ -2,7 +2,15 @@ const myPlanet = new Planet("my-planet", Planets.sun, 1);
 
 myPlanet.localizedName = "My Planet";
 
-myPlanet.generator = new SerpuloPlanetGenerator();
+myPlanet.generator = extend(PlanetGenerator, {
+
+    generateTile(tile){
+        // просто земля без математики
+        tile.floor = Blocks.stone;
+        tile.block = Blocks.air;
+    }
+
+});
 
 myPlanet.meshLoader = () => new HexMesh(myPlanet, 6);
 
