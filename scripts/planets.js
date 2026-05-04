@@ -6,7 +6,7 @@ myPlanet.meshLoader = () => new HexMesh(myPlanet, 6);
 myPlanet.atmosphereColor = Color.valueOf("4da6ff");
 
 myPlanet.startSector = 10;
-myPlanet.accessible = true;
+myPlanet.accessible = false;
 myPlanet.alwaysUnlocked = true;
 myPlanet.visible = true;
 
