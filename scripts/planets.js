@@ -70,8 +70,6 @@ myPlanet.meshLoader = () => new NoiseMesh(
 myPlanet.visible = true;
 myPlanet.orbitRadius = 60;
 
-myPlanet.defaultEnv = Env.terrestrial;
-
 // атмосфера
 myPlanet.atmosphereColor = Color.valueOf("4da6ff");
 myPlanet.atmosphereRadIn = 0.02;
