@@ -7,7 +7,7 @@ Events.run(EventType.ContentInitEvent, () => {
 
     myPlanet.atmosphereColor = Color.valueOf("4da6ff");
 
-    myPlanet.startSector = 10;
+    myPlanet.startSector = 1;
     myPlanet.accessible = true;
     myPlanet.alwaysUnlocked = true;
     myPlanet.visible = true;
@@ -15,7 +15,7 @@ Events.run(EventType.ContentInitEvent, () => {
     myPlanet.orbitRadius = 60;
     myPlanet.defaultEnv = Env.terrestrial;
 
-    new SectorPreset("start", myPlanet, 10, {
+    new SectorPreset("Посев", myPlanet, 1, {
         alwaysUnlocked: true,
         addStartingItems: true,
         captureWave: 10
