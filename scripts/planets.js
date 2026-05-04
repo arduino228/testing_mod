@@ -1,18 +1,19 @@
-const myPlanet = new Planet("Obsruls", Planets.sun, 1);
+const myPlanet = new Planet("my-planet", Planets.sun, 1);
 
 myPlanet.generator = new SerpuloPlanetGenerator();
-
 myPlanet.meshLoader = () => new HexMesh(myPlanet, 6);
 
-myPlanet.atmosphereColor = Color.valueOf("4da6ff");
-
-myPlanet.startSector = 10;
 myPlanet.accessible = true;
 myPlanet.alwaysUnlocked = true;
+myPlanet.startSector = 10;
+myPlanet.orbitRadius = 50;
 
 new SectorPreset("start", myPlanet, 10, {
     alwaysUnlocked: true
 });
+
+//  ОБЯЗАТЕЛЬНО
+TechTree.node(Planets.serpulo, myPlanet, () => {});
 /*
 // ===== генератор =====
 const myGen = extend(SerpuloPlanetGenerator, {
