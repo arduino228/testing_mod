@@ -1,17 +1,24 @@
 const myPlanet = new Planet("my-planet", Planets.sun, 1);
 
-myPlanet.generator = new SerpuloPlanetGenerator();
+myPlanet.generator = extend(SerpuloPlanetGenerator, {});
 myPlanet.meshLoader = () => new HexMesh(myPlanet, 6);
 
+myPlanet.atmosphereColor = Color.valueOf("4da6ff");
+
+myPlanet.startSector = 10;
 myPlanet.accessible = true;
 myPlanet.alwaysUnlocked = true;
-myPlanet.startSector = 10;
-myPlanet.orbitRadius = 50;
+
 myPlanet.defaultEnv = Env.terrestrial;
 
 new SectorPreset("start", myPlanet, 10, {
-    alwaysUnlocked: true
+    alwaysUnlocked: true,
+    addStartingItems: true,
+    captureWave: 10,
+    difficulty: 1
 });
+
+TechTree.node(Planets.serpulo, myPlanet, () => {});
 
 //  ОБЯЗАТЕЛЬНО
 //TechTree.node(Planets.serpulo, myPlanet, () => {});
