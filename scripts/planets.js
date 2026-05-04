@@ -1,5 +1,5 @@
 // ===== генератор =====
-const myGen = extend(SerpuloPlanetGenerator, {
+const myGen = extend(ErekirPlanetGenerator, {
 
     noise1: new Simplex();
     noise2: new Simplex();
@@ -66,6 +66,7 @@ myPlanet.meshLoader = () => new NoiseMesh(
     Color.valueOf("2b6db2"),
     Color.valueOf("1c2f5b")
 );
+
 
 // атмосфера
 myPlanet.atmosphereColor = Color.valueOf("4da6ff");
