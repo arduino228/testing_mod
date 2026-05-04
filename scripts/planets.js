@@ -13,23 +13,23 @@ const myGen = extend(SerpuloPlanetGenerator, {
 
         let height = base + detail * 0.3;
 
-        // 🌊 вода
+        // вода
         if(height < 0.3){
             tile.floor = Blocks.water;
             return;
         }
 
-        // 🏖 берег
+        // берег
         if(height < 0.4){
             tile.floor = Blocks.sand;
         }
 
-        // 🌱 равнины
+        // равнины
         else if(height < 0.7){
             tile.floor = Blocks.grass;
         }
 
-        // 🏔 горы
+        // горы
         else{
             tile.floor = Blocks.stone;
 
@@ -38,12 +38,7 @@ const myGen = extend(SerpuloPlanetGenerator, {
             }
         }
 
-        // ⛏ руда
-        if(height > 0.6 && Math.random() < 0.05){
-            tile.overlay = Blocks.oreCopper;
-        }
-
-        // 🌊 реки
+        // реки
         let river = Math.abs(this.noise2.octaveNoise3D(1, 1, 1/30, x, y, z));
         if(river < 0.02 && height > 0.35){
             tile.floor = Blocks.water;
@@ -59,7 +54,7 @@ const myPlanet = new Planet("my-planet", Planets.sun, 1);
 
 myPlanet.generator = myGen;
 
-// 🌍 внешний вид
+// внешний вид
 myPlanet.meshLoader = () => new NoiseMesh(
     myPlanet,
     6,
@@ -72,12 +67,12 @@ myPlanet.meshLoader = () => new NoiseMesh(
     Color.valueOf("1c2f5b")
 );
 
-// 🌫 атмосфера
+// атмосфера
 myPlanet.atmosphereColor = Color.valueOf("4da6ff");
 myPlanet.atmosphereRadIn = 0.02;
 myPlanet.atmosphereRadOut = 0.3;
 
-// 🚀 доступ
+// доступ
 myPlanet.startSector = 10;
 myPlanet.alwaysUnlocked = true;
 myPlanet.accessible = true;
