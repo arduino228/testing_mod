@@ -67,6 +67,10 @@ myPlanet.meshLoader = () => new NoiseMesh(
     Color.valueOf("1c2f5b")
 );
 
+myPlanet.visible = true;
+myPlanet.orbitRadius = 60;
+
+myPlanet.defaultEnv = Env.terrestrial;
 
 // атмосфера
 myPlanet.atmosphereColor = Color.valueOf("4da6ff");
@@ -74,13 +78,13 @@ myPlanet.atmosphereRadIn = 0.02;
 myPlanet.atmosphereRadOut = 0.3;
 
 // доступ
-myPlanet.startSector = 10;
+myPlanet.startSector = 1;
 myPlanet.alwaysUnlocked = true;
 myPlanet.accessible = true;
 
 
 // ===== сектор =====
-new SectorPreset("my-sector", myPlanet, 10, {
+new SectorPreset("my-sector", myPlanet, 1, {
     alwaysUnlocked: true,
     captureWave: 15,
     difficulty: 3
