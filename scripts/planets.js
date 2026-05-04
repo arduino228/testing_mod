@@ -1,6 +1,11 @@
 const myPlanet = new Planet("my-planet", Planets.sun, 1);
 
-myPlanet.generator = extend(SerpuloPlanetGenerator, {});
+myPlanet.generator = extend(SerpuloPlanetGenerator, {
+    getHeight(position){
+        return 0.5; // безопасная заглушка
+    }
+});
+
 myPlanet.meshLoader = () => new HexMesh(myPlanet, 6);
 
 myPlanet.atmosphereColor = Color.valueOf("4da6ff");
