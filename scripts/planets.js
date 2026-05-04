@@ -8,6 +8,9 @@ myPlanet.atmosphereColor = Color.valueOf("4da6ff");
 myPlanet.startSector = 10;
 myPlanet.accessible = true;
 myPlanet.alwaysUnlocked = true;
+myPlanet.visible = true;
+
+myPlanet.orbitRadius = 60;
 
 myPlanet.defaultEnv = Env.terrestrial;
 
@@ -18,8 +21,8 @@ new SectorPreset("start", myPlanet, 10, {
     difficulty: 1
 });
 
-TechTree.node(Planets.serpulo, myPlanet, () => {});
-
+// 🔥 ключевая строка
+TechTree.nodeRoot("my-planet", myPlanet, () => {});
 //  ОБЯЗАТЕЛЬНО
 //TechTree.node(Planets.serpulo, myPlanet, () => {});
 /*
