@@ -1,8 +1,14 @@
+print(">>>PLANET IS LOADING");
+print("...");
 const myPlanet = new Planet("my-planet", Planets.sun, 1);
 
 myPlanet.localizedName = "My Planet";
 
 myPlanet.generator = extend(PlanetGenerator, {
+
+    getHeight(pos){
+        return 0.5; // ОБЯЗАТЕЛЬНО
+    },
 
     generateTile(tile){
         // просто земля без математики
@@ -30,6 +36,7 @@ sector.alwaysUnlocked = true;
 sector.addStartingItems = true;
 sector.captureWave = 20;
 
-//вместо nodeRoot:
-TechTree.node(Planets.sun, myPlanet, () => {});
+TechTree.node(Planets.sun, myPlanet, () => {
+    TechTree.node(myPlanet, sector, () => {});
+});
 print(">>> PLANET LOADED");
