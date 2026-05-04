@@ -1,3 +1,19 @@
+const myPlanet = new Planet("Obsruls", Planets.sun, 1);
+
+myPlanet.generator = new SerpuloPlanetGenerator();
+
+myPlanet.meshLoader = () => new HexMesh(myPlanet, 6);
+
+myPlanet.atmosphereColor = Color.valueOf("4da6ff");
+
+myPlanet.startSector = 10;
+myPlanet.accessible = true;
+myPlanet.alwaysUnlocked = true;
+
+new SectorPreset("start", myPlanet, 10, {
+    alwaysUnlocked: true
+});
+/*
 // ===== генератор =====
 const myGen = extend(SerpuloPlanetGenerator, {
 
@@ -84,3 +100,5 @@ new SectorPreset("my-sector", myPlanet, 10, {
     captureWave: 15,
     difficulty: 3
 });
+
+*/
