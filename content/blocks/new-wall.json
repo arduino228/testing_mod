@@ -1,7 +1,7 @@
 {
 	"type": "wall",
 	"name": "Стена из металлолома",
-	"discription": "никто не пройдет",
+	"description": "никто не пройдет",
 	"health": 275,
 	"size": 2,
 	"requirements": [
