@@ -11,8 +11,8 @@
     "divisions": 6,
     "seed": 76,
     "radius": 1.120,
-    "color1": 252d40,
-    "color2": 384d6c,
+    "color1": "252d40",
+    "color2": "384d6c",
     "octaves": 3,
     "persistence": 1.1,
     "mag": 1.6,
@@ -25,8 +25,8 @@
     "divisions": 6,
     "seed": 52,
     "radius": 1.100,
-    "color1": 505e7f
-    "color2": 303c58,
+    "color1": "505e7f",
+    "color2": "303c58",
     "octaves": 3,
     "persistence": 1.1
     }
@@ -56,8 +56,8 @@
 "allowSelfSectorLaunch": false,
 "allowWaveSimulation": false,
 
-"iconColor": beccc9,
-"landCloudColor": 49cc56,
+"iconColor": "beccc9",
+"landCloudColor": "49cc56",
 
 "hasAtmosphere": true,
 "bloom": true,
