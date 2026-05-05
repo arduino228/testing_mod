@@ -69,8 +69,8 @@
 
 "startSector": 0,
 "sectorSize": 3,
-"parent": "myStar",
-"solarSystem": "myStar",
+"parent": "my-star",
+"solarSystem": "my-star",
 "tidalLock": true,
 "orbitRadius": 80,
 "orbitTime": 2000,
