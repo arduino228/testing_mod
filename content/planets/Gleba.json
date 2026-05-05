@@ -54,7 +54,7 @@
 "allowLegacyLaunchPads": false,
 "allowSectorInvasion": false,
 "allowSelfSectorLaunch": false,
-"allowWaveSimulation": false,
+//"allowWaveSimulation": false,
 
 "iconColor": "beccc9",
 "landCloudColor": "49cc56",
@@ -62,15 +62,15 @@
 "hasAtmosphere": true,
 "bloom": true,
 
-"fog": true,
-"showSpawns": true,
-"campaignRuleDefaults.fog": true,
-"campaignRuleDefaults.showSpawns": true,
+//"fog": true,
+//"showSpawns": true,
+//"campaignRuleDefaults.fog": true,
+//"campaignRuleDefaults.showSpawns": true,
 
 "startSector": 0,
 "sectorSize": 3,
-"parent": "sun",
-"solarSystem": "sun",
+"parent": "myStar",
+"solarSystem": "myStar",
 "tidalLock": true,
 "orbitRadius": 80,
 "orbitTime": 2000,
@@ -79,8 +79,8 @@
 
 "prebuildBase": true,
 "clearSectorOnLose": true,
-"coreDestroyClear": false,
-"onlyDepositCore": false,
+//"coreDestroyClear": false,
+//"onlyDepositCore": false,
 
 //"fefaultCore": "Core",
 "enemyBuildSpeedMultiplier": 1.5,
