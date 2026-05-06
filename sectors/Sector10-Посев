@@ -1,0 +1,10 @@
+{
+  "type": "SectorPreset",
+  "name": "sowing",
+  "planet": "my-planet",
+  "sector": 10,
+
+  "map": "testing_mod-посев",  
+  "alwaysUnlocked": true,
+  "difficulty": 1
+}
