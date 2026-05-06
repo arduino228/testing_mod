@@ -68,7 +68,7 @@
 //"campaignRuleDefaults.showSpawns": true,
 
 "startSector": 10,
-"sectorSize": 6,
+"sectorSize": 4,
 "parent": "sun",
 "solarSystem": "sun",
 "tidalLock": true,
