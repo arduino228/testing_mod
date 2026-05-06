@@ -1,14 +1,13 @@
 {
 	"type": "liquid",
-	"name": "voda",
+	"name": "liquid example",
 	"discription": "...",
 	"color": "227B14",
 	"explosiveness": 1,
 	"flammability": 1,
 	"viscosity": 1,
 	"temperature": 0,
-	"heatCapacity": 1,
-	"radioactivity": 1
+	"heatCapacity": 1
 }
 
 
