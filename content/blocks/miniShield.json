@@ -22,7 +22,7 @@
         "regenSpeed": 25,
         "shieldHealth": 250,
         "coolantConsumption": 0.035,
-        "optionalConsumers": {
+        "init"("optionalConsumers"): {
               "scrap": {
                     "radius": 55,
                     "regenSpeed": 31,
