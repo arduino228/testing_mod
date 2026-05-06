@@ -1,5 +1,5 @@
 "generator": "PlanetGenerator",
-"localizedName": "Gleba",
+"name": "Gleba",
 "description": "test description",
 "accessible": false,
 "visible": true,
@@ -60,7 +60,7 @@
 "landCloudColor": "49cc56",
 
 "hasAtmosphere": true,
-"bloom": false,
+"bloom": true,
 
 //"fog": true,
 //"showSpawns": true,
