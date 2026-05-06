@@ -15,8 +15,8 @@
     "color2": "384d6c",
     "octaves": 3,
     "persistence": 1.1,
-    "mag": 1.6,
-    "scl": 5
+    "mag": 2,
+    "scl": 6
     }
     
     {
@@ -60,7 +60,7 @@
 "landCloudColor": "49cc56",
 
 "hasAtmosphere": true,
-"bloom": true,
+"bloom": false,
 
 //"fog": true,
 //"showSpawns": true,
