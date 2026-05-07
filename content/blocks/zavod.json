@@ -1,7 +1,7 @@
 {
 	"type": "GenericCrafter",
 	"name": "Завод",
-	"discription": "...",
+	"description": "...",
 	"health": 1000,
 	"size": 3,
 	"requirements": [
@@ -10,8 +10,9 @@
 	"hasPower": true,
 	"hasItems": true,
 	"hasLiquids": false,
-	"isOutputLiquids": false,
-	"isOutputItems": true,
+ //uncnown field 'isOutputItems' for class 'GenericCrafter' :
+ //"isOutputLiquids": false,
+	//"isOutputItems": true,
 	"craftTime": 10,
 	"consumes": {
 		"power": 20,
