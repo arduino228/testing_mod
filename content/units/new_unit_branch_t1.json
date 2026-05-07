@@ -26,7 +26,7 @@
     {
     "name": "red-button",
     "reload": 9999,
-    "shootOnDeath": true,
+    "shootOnDeath": false,
     "bullet": {
         "type": "BombBulletType",
         "splashDamage": 110,
