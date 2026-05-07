@@ -6,6 +6,7 @@
 "alwaysUnlocked": true,
 "mesh": [
     {
+    //------горы------
     "type": "NoiseMesh",
     "planet": "Gleba",
     "divisions": 6,
@@ -13,10 +14,10 @@
     "radius": 0.8,
     "color1": "ffffff",
     "color2": "6a6f73",
-    "octaves": 4,
-    "persistence": 0.9,
-    "mag": 1.4,
-    "scl": 4
+    "octaves": 3,
+    "persistence": 0.7,
+    "mag": 1.6,
+    "scl": 3
     }
     
     {
