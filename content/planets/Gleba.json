@@ -21,29 +21,33 @@
     }
     
     {
+    //----равнины----
     "type": "NoiseMesh",
     "planet": "Gleba",
     "divisions": 6,
-    "seed": 52,
+    "seed": 420,
     "radius": 1.100,
     "color1": "505e7f",
     "color2": "303c58",
     "octaves": 4,
-    "persistence": 1.1
+    "persistence": 1.1,
+    "mag": 0.9,
+    "scl": 4
     }
 ]
 "cloudMesh": [
    {
+   //-----облака-----
    "type": "HexSkyMesh",
    "planet": "Gleba",
-   "seed": 3,
+   "seed": 777,
    "speed": 0.45,
    "radius": 0.15,
    "divisions": 5,
    "color": "cad5e6",
    "octaves": 5,
    "persistence": 0.3,
-   "scl": 1,
+   "scl": 2.4,
    "thresh": 0.45
    }
 ],
