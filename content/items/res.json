@@ -1,5 +1,5 @@
 {
-	"type": "item",
+	//"type": "material",
 	"name": "coin",
 	"description": "money",
 	"cost": 1,
